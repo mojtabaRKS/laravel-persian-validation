@@ -14,7 +14,7 @@ clone or download zip.
 cd {your-laravel-directory}/resources/lang
 ```
 
-and copy `fa` folder in `lang` 
+and copy `fa` folder and fa.json in `lang` 
 
 That's all :)
 
