@@ -95,5 +95,6 @@
     "Close": "بستن",
     "API Token Permissions": "دسترسی های توکن",
     "Delete API Token": "حذف توکن",
-    "Are you sure you would like to delete this API token?": "آیا از حذف این توکن مطمئن هستید؟"
+    "Are you sure you would like to delete this API token?": "آیا از حذف این توکن مطمئن هستید؟",
+    "The :attribute must be a valid role": "فیلد :attribute باید نقش درستی داشته باشد"
 }
