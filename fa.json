@@ -98,5 +98,9 @@
     "Are you sure you would like to delete this API token?": "آیا از حذف این توکن مطمئن هستید؟",
     "The :attribute must be a valid role": "فیلد :attribute باید نقش درستی داشته باشد",
     "The provided two factor authentication code was invalid.": "رمز دوم شما درست نیست.",
-    "The provided password does not match your current password.": "رمز عبور وارد شده با رمز عبور حسابتان یکی نیست!"
+    "The provided password does not match your current password.": "رمز عبور وارد شده با رمز عبور حسابتان یکی نیست!",
+    "The :attribute must be at least :length characters and contain at least one uppercase character.": "فیلد :attribute باید حداقل :length کاراکتر و شامل حداقل یک حرف بزرگ باشد.",
+    "The :attribute must be at least :length characters and contain at least one number.": "فیلد :attribute باید حداقل :length کاراکتر و شامل حداقل یک عدد باشد.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character and number.": "فیلد :attribute باید حداقل :length کاراکتر و شامل حداقل یک حرف بزرگ و یک عدد باشد.",
+    "The :attribute must be at least :length characters.": "فیلد :attribute باید حداقل :length کاراکتر باشد."
 }
