@@ -130,5 +130,8 @@
     "You may not leave a team that you created.": "نمیتوانید از تیم خودتان خارج شوید.",
     "You may not delete your personal team.": "نمیتوانید تیم خودتان را حذف کنید.",
     "This password does not match our records.": "این رمز عبور با اطلاعات ما مطابق نیست.",
-    "The :attribute must be a valid role.": "فیلد :attribute باید یک نقش درست باشد."
+    "The :attribute must be a valid role.": "فیلد :attribute باید یک نقش درست باشد.",
+    "The :attribute must be at least :length characters and contain at least one special character.": "فیلد :attribute باید حداقل :length کاراکتر و شامل یک کاراکتر مخصوص باشد.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character and one special character.": "فیلد :attribute باید حداقل :length کاراکتر و شامل یک کاراکتر مخصوص و یک حرف بزرگ باشد.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character, one number, and one special character.": "فیلد :attribute باید حداقل :length کاراکتر، یک کاراکتر مخصوص، یک حرف بزرگ و یک عدد باشد."
 }
