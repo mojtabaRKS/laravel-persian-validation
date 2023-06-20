@@ -1,17 +1,23 @@
-# laravel-persian-validation
+# **Laravel Persian Validation**
 
-persian(farsi فارسی) validation messages for laravel
+Persian(farsi فارسی) validation messages for Laravel
 
 ### Prerequisites
 
-Laravel :)
+[Laravel](https://github.com/laravel/laravel) :)
 
-### Installing
+### Setup
 
-clone or download zip.
+You can clone or also download zip file to your project.
 
+
+## **IN Laravel 5.X|6.X|7.X|8.X**
 ```
 cd {your-laravel-directory}/resources/lang
+```
+## **IN Laravel 9.X|10.X**
+```
+cd {your-laravel-directory}/lang
 ```
 
 and copy `fa` folder and `fa.json` in `lang` 

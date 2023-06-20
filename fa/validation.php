@@ -22,6 +22,7 @@ return [
     "alpha_dash"       => ":attribute باید شامل حروف الفبا و عدد و خظ تیره(-) باشد.",
     "alpha_num"        => ":attribute باید شامل حروف الفبا و عدد باشد.",
     "array"            => ":attribute باید شامل آرایه باشد.",
+    "ascii"            => ":attribute .باید شامل کاراکترها و نمادهای الفبایی تک بایتی باشد",
     "before"           => ":attribute باید تاریخی قبل از :date باشد.",
     'before_or_equal' => ':attribute باید قبل از یا برابر تاریخ :date باشد.',
     "between"          => [
@@ -32,6 +33,7 @@ return [
     ],
     "boolean"          => "فیلد :attribute فقط میتواند صحیح و یا غلط باشد",
     "confirmed"        => ":attribute با تاییدیه مطابقت ندارد.",
+    'current_password'         => 'رمز عبور اشتباه است.',
     "date"             => ":attribute یک تاریخ معتبر نیست.",
     'date_equals'      => ':attribute باید برابر تاریخ :date باشد.',
     "date_format"      => ":attribute با الگوی :format مطاقبت ندارد.",
@@ -42,8 +44,11 @@ return [
     "digits_between"   => ":attribute باید بین :min و :max رقم باشد.",
     'dimensions'       => 'dimensions مربوط به فیلد :attribute اشتباه است.',
     'distinct'         => ':attribute مقدار تکراری دارد.',
+    'doesnt_end_with'  => ':attribute نباید با یکی از موارد تمام شود: :values.',
+    'doesnt_start_with'=> ':attribute نباید با یکی از موارد شروع شود: :values.',
     "email"            => "فرمت :attribute معتبر نیست.",
     'ends_with'        => ':attribute باید با این مقدار تمام شود: :values.',
+    "enum"             => ":attribute انتخاب شده، معتبر نیست.",
     "exists"           => ":attribute انتخاب شده، معتبر نیست.",
     'file' 	       => 'فیلد :attribute باید فایل باشد.',
     "filled"           => "فیلد :attribute الزامی است",
@@ -79,12 +84,14 @@ return [
         'string'  => ':attribute باید کمتر یا برابر :value کاراکتر باشد.',
         'array'   => ':attribute باید :value ایتم یا کمتر را داشته باشد.',
     ],
+    "mac_address"           => ":attribute باید یک مک آدرس معتبر باشد.",
     "max"              => [
         "numeric" => ":attribute نباید بزرگتر از :max باشد.",
         "file"    => ":attribute نباید بزرگتر از :max کیلوبایت باشد.",
         "string"  => ":attribute نباید بیشتر از :max کاراکتر باشد.",
         "array"   => ":attribute نباید بیشتر از :max آیتم باشد.",
     ],
+    "max_digits"       => ":attribute نباید بیشتر از :max رقم داشته باشد.",
     "mimes"            => ":attribute باید یکی از فرمت های :values باشد.",
     'mimetypes'        => ':attribute باید تایپ ان از نوع: :values باشد.',
     "min"              => [
@@ -93,11 +100,23 @@ return [
         "string"  => ":attribute نباید کمتر از :min کاراکتر باشد.",
         "array"   => ":attribute نباید کمتر از :min آیتم باشد.",
     ],
+    "min_digits"       => ":attribute نباید کمتر از :min رقم داشته باشد.",
+    "missing"           => ":attribute باید از دست رفته باشد.",
+    "missing_if"           => ":attribute نباید وجود داشته باشد تا زمانی که :other :value باشد.",
+    "missing_unless"           => ":attribute نباید وجود داشته باشد یا اینکه :other :value باشد.",
+    "missing_with"           => ":attribute باید در صورت :value وجود نداشته باشد.",
+    "missing_with_all"           => ":attribute باید در صورت تمامی :value وجود نداشته باشد.",
     'multiple_of'      => ':attribute باید ضریبی از :value باشد.',
     "not_in"           => ":attribute انتخاب شده، معتبر نیست.",
     'not_regex'        => ':attribute فرمت معتبر نیست.',
     "numeric"          => ":attribute باید شامل عدد باشد.",
-    'password'         => 'رمز عبور اشتباه است.',
+    'password' => [
+        'letters' => ':attribte باید حدقل شامل یک حرف باشد.',
+        'mixed' => ':attribte باید حداقل یک حرف بزرگ یا یک حرف کوچک انگلیسی را شامل باشد.',
+        'numbers' => ':attribte باید حداقل شامل یک عدد باشد.',
+        'symbols' => ':attribte باید حداقل شامل یک نماد یا نشان(سمبل) باشد ',
+        'uncompromised' => ':attribte وارد شده سازگار ندارد. لطفا :attribute دیگری را امتحان کنید.',
+    ],
     'present'          => ':attribute باید وجود داشته باشد.',
     'prohibited'       => 'فیلد :attribute ممنوع است.',
     'prohibited_if'    => 'هنگام که :other، :value است فیلد :attribute ممنوع است.',
@@ -105,7 +124,9 @@ return [
     'prohibits'        => 'هنگام ورود فیلد :attribute، وارد کردن فیلد :other ممنوع است.',
     "regex"            => ":attribute یک فرمت معتبر نیست",
     "required"         => "فیلد :attribute الزامی است",
+    "required_array_keys" => ":attribute باید شامل ورودی هایی برای :for :values باشد.",
     "required_if"      => "فیلد :attribute هنگامی که :other برابر با :value است، الزامیست.",
+    "required_if_accepted" => ":attribute زمانی الزامی میباشد که :other پذیرفته شود.",
     'required_unless'  => 'قیلد :attribute الزامیست مگر این فیلد :other مقدارش  :values باشد.',
     "required_with"    => ":attribute الزامی است زمانی که :values موجود است.",
     "required_with_all" => ":attribute الزامی است زمانی که :values موجود است.",
@@ -124,6 +145,7 @@ return [
     "unique"           => ":attribute قبلا انتخاب شده است.",
     'uploaded'         => 'فیلد :attribute به درستی اپلود نشد.',
     "url"              => "فرمت آدرس :attribute اشتباه است.",
+    'ulid'             => ':attribute باید یک فرمت درست ULID باشد.',
     'uuid'             => ':attribute باید یک فرمت درست UUID باشد.',
 
     /*
@@ -137,7 +159,11 @@ return [
     |
     */
 
-    'custom' => [],
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'custom-message',
+        ],
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -159,6 +185,7 @@ return [
         "password" => "رمز عبور",
         "password_confirmation" => "تاییدیه ی رمز عبور",
         "city" => "شهر",
+        "province" => "استان",
         "country" => "کشور",
         "address" => "نشانی",
         "phone" => "تلفن",
@@ -166,6 +193,10 @@ return [
         "age" => "سن",
         "sex" => "جنسیت",
         "gender" => "جنسیت",
+        "birthday" => "تاریخ تولد",
+        "birthdate" => "تاریخ تولد",
+        "married" => "متاهل",
+		"single" => "مجرد",
         "day" => "روز",
         "month" => "ماه",
         "year" => "سال",
@@ -181,7 +212,17 @@ return [
         "time" => "زمان",
         "available" => "موجود",
         "size" => "اندازه",
+        "volume" => "حجم",
 		"file" => "فایل",
-		"fullname" => "نام کامل"
+		"fullname" => "نام کامل",
+        "melli_code" => "کد ملی",
+        "national_number" => "کد ملی",
+        "postal_code" => "کد پستی",
+        "zip_code" => "کد پستی",
+        "passport_number" => "شماره پاسپورت",
+        "passport_no" => "شماره پاسپورت",
+		"sheba_number" => "شماره شبا",
+		"iban" => "شماره شبا",
+		"accountـnumber" => "شماره حساب"		
     ],
 ];
