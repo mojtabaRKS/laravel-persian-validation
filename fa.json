@@ -133,5 +133,9 @@
     "The :attribute must be a valid role.": "فیلد :attribute باید یک نقش درست باشد.",
     "The :attribute must be at least :length characters and contain at least one special character.": "فیلد :attribute باید حداقل :length کاراکتر و شامل یک کاراکتر مخصوص باشد.",
     "The :attribute must be at least :length characters and contain at least one uppercase character and one special character.": "فیلد :attribute باید حداقل :length کاراکتر و شامل یک کاراکتر مخصوص و یک حرف بزرگ باشد.",
-    "The :attribute must be at least :length characters and contain at least one uppercase character, one number, and one special character.": "فیلد :attribute باید حداقل :length کاراکتر، یک کاراکتر مخصوص، یک حرف بزرگ و یک عدد باشد."
+    "The :attribute must be at least :length characters and contain at least one uppercase character, one number, and one special character.": "فیلد :attribute باید حداقل :length کاراکتر، یک کاراکتر مخصوص، یک حرف بزرگ و یک عدد باشد.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "فیلد :attribute باید حداقل یک حرف بزرگ و یک حرف کوچک داشته باشد.",
+    "The :attribute must contain at least one symbol.": "فیلد :attribute باید حداقل یک نماد داشته باشد.",
+    "The :attribute must contain at least one number.": "فیلد :attribute باید حداقل یک عدد داشته باشد.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": ":attribute داده شده در یک نشت داده ظاهر شده است. لطفاً یک :attribute دیگر انتخاب کنید."
 }
