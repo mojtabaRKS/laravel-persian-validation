@@ -20,7 +20,7 @@ cd {your-laravel-directory}/resources/lang
 cd {your-laravel-directory}/lang
 ```
 
-and copy `fa` folder and `fa.json` in `lang` 
+and copy `fa` folder in `lang` 
 
 That's all :)
 
