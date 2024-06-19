@@ -93,7 +93,7 @@ return [
     ],
     "max_digits"       => ":attribute نباید بیشتر از :max رقم داشته باشد.",
     "mimes"            => ":attribute باید یکی از فرمت های :values باشد.",
-    'mimetypes'        => ':attribute باید تایپ ان از نوع: :values باشد.',
+    'mimetypes'        => ':attribute باید تایپ آن از نوع: :values باشد.',
     "min"              => [
         "numeric" => ":attribute نباید کوچکتر از :min باشد.",
         "file"    => ":attribute نباید کوچکتر از :min کیلوبایت باشد.",
