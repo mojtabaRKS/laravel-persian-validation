@@ -22,6 +22,15 @@ cd {your-laravel-directory}/lang
 
 and copy `fa` folder in `lang` 
 
+
+## **Important:**
+After copying, make sure to set your application locale to fa in the Laravel config file.
+Open config/app.php and set:
+```
+'locale' => 'fa',
+```
+
+
 That's all :)
 
 ## Contributing
