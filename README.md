@@ -1,45 +1,55 @@
 # **Laravel Persian Validation**
 
-Persian(farsi فارسی) validation messages for Laravel
+Persian (فارسی) validation messages for Laravel.
 
-### Prerequisites
+---
 
-[Laravel](https://github.com/laravel/laravel) :)
+## 📦 Prerequisites
 
-### Setup
+* A Laravel project — [Laravel Official Repo](https://github.com/laravel/laravel)
 
-You can clone or also download zip file to your project.
+---
 
+## 🚀 Installation
 
-## **IN Laravel 5.X|6.X|7.X|8.X**
+You can clone or download this repository and copy the `fa` (Farsi) language folder to your Laravel project.
+
+### 🛠 Directory Path Based on Laravel Version
+
+#### 🔹 Laravel 5.x – 8.x
+
+```bash
+cd your-laravel-project/resources/lang
 ```
-cd {your-laravel-directory}/resources/lang
-```
-## **IN Laravel 9.X|10.X**
-```
-cd {your-laravel-directory}/lang
+
+#### 🔹 Laravel 9.x – 12.x
+
+```bash
+cd your-laravel-project/lang
 ```
 
-and copy `fa` folder in `lang` 
+Then copy the `fa` folder from this repo into that directory.
 
+---
 
-## **Important:**
-After copying, make sure to set your application locale to fa in the Laravel config file.
-Open config/app.php and set:
-```
+## ⚙️ Configuration
+
+Make sure to set your app’s locale to `fa` in `config/app.php`:
+
+```php
 'locale' => 'fa',
 ```
 
+---
 
-That's all :)
+## 🤝 Contributing
 
-## Contributing
+We welcome contributions to improve this repository!
+Feel free to submit a pull request to the `master` branch.
 
-thank you for help us to improve this repository .
-any pull request to `master` repo will be accepted
+---
 
-## Authors
+## 👨‍💻 Author
 
-* **Mojtaba Rakhisi** - *Initial work* - [mojtabaRKS](https://github.com/mojtabaRKS)
-
-
+**Mojtaba Rakhisi** – *Initial work*
+[GitHub @mojtabaRKS](https://github.com/mojtabaRKS)
